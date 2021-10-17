@@ -9,8 +9,7 @@ html { box-sizing: border-box; }
  tmave fialova    #25133d
 
  POUZITE PISMO
- Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
-https://fonts.google.com/specimen/Source+Sans+Pro
+ font-family: 'Source Sans Pro', sans-serif;
 */
 
 body {
@@ -28,6 +27,127 @@ body {
 	margin: 0 auto; /* pruh je na stránce vycentrovaný */
 	background: white;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	font-family: 'Source Sans Pro', sans-serif;
+	
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.logo {
+	font-weight: bold;
+	margin-right: 40px;
+	margin: 0;
+}
+
+.menu ul {
+	margin-bottom: 0;
+	padding: 8px 0;
+}
+
+.menu li {
+	display: inline;
+	list-style-type: none;	
+	margin: 10px 0 10px 40px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background-color: #48418e;
+}
+
+.hero {
+	position: relative;
+	background-image: url(images/pozadi.jpg);
+	min-height: 450px;
+}
+
+.hero img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.hero h1 {
+	margin: 0;
+	color: white;
+	font-size: 90px;
+	font-weight: 400;
+	margin-left: 40px;
+	padding-top: 40px;
+}
+
+.hero p {
+	font-size: 36px;
+	font-weight: 300;
+	color: white;
+	margin-left: 40px;
+}
+
+.tlacitko {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.tlacitko:hover {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	background-color: #25133d;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.cudliky {
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.polozky {
+	display: flex;
+	padding-top: 10px;
+}
+
+.oddil {
+	padding: 20px;
+	margin: 10px;
+	flex: 1 1 calc(100% / 3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.oddil h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #48418e;
+}
+
+.obr {
+	height: 60px;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+
+
+
+
+footer {
+	background-color: #48418e;
+	text-align: center;
+	color: white;
+}
