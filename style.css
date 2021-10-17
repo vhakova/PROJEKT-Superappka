@@ -202,6 +202,7 @@ footer {
 	}
 	
 	.hero img {
+		display: block;
 		position: absolute;
 		right: 0;
 		bottom: 0;
@@ -214,6 +215,7 @@ footer {
 		font-weight: 400;
 		margin-left: 40px;
 		padding-top: 40px;
+		text-align: left;
 	}
 	
 	.hero p {
@@ -221,6 +223,7 @@ footer {
 		font-weight: 300;
 		color: white;
 		margin-left: 40px;
+		text-align: left;
 	}
 	
 	.tlacitko {
@@ -245,6 +248,7 @@ footer {
 	.cudliky {
 		margin-left: 30px;
 		font-size: 20px;
+		text-align: left;
 	}
 	
 	.polozky {
